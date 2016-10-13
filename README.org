@@ -1,0 +1,39 @@
+* Management repository
+this repository is dedicated to keep all the files related with the conception and management of an app for project management
+based on scrum method.
+
+** Repository configuration
+*** CMMIquestions.org
+    this file should contain a set of question that cover the following sectors of a project management flow:
+    - requirements
+    - planning
+    - project back-trace
+    - configuration
+    - technical solutions
+    - Integrated Project Management
+    - verification
+    - validation
+
+*** appRequirements.org
+    this file should contain the description of an app that cover all questions made on the file CMMIquestions.org
+    and a detailed description of all functionalities of the app to be developed
+
+*** backlogSketch.org
+    this file contains a list with all *user story* related to the functionalities described in the appRequirements.org
+
+*** backlog.org
+    this is the file containing a filtered list of the *user story* that will be done from the list on the backlogSketch.org file
+    with each *user story* containing its effort based on the Fibonacci scale
+
+*** tasks.org
+    a list with all task related to each *user story* on backlog.org file.
+    containing the cost in man/day
+
+*** sprints.org
+    this file should contain a list of sprints and the *tasks* and *user story* that will be done on the sprint
+
+*** taskDistribution.org
+    this file has an chart on kanbam style for each sprint
+
+*** traceability.org
+    contains a cross reference between *user-story* and a commit closing this *user story*
