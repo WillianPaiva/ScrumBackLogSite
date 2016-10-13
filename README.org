@@ -7,10 +7,10 @@ based on scrum method.
     this file should contain a set of question that cover the following sectors of a project management flow:
     - requirements
     - planning
-    - project back-trace
+    - project follow-up
     - configuration
     - technical solutions
-    - Integrated Project Management
+    - Product integration
     - verification
     - validation
 

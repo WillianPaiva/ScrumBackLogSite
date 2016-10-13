@@ -1,0 +1,60 @@
+* requirements
+
+  what are the requirements for the project?
+  how can access those requirements and who can access it?
+  how are the requirements documented?
+  how the requirements are analyzed?
+  how is the traceability of the requirements maintained ?
+
+
+* planning
+
+  who is responsible for the project planning?
+  how is the project effort, cost estimated?
+  how is the priority decided?
+  how project dependencies are managed?
+
+* project follow-up
+
+  how to keep track of the project?
+  how the versions work?
+  and how are those versions managed?
+  how to track bugs ?
+  how is progress monitored?
+
+* configuration
+
+  what is the configuration of the project?
+  where is it documented?
+  how are the configuration item identified?
+  if a the configuration needs change whats is the process to change ?
+  how the configuration are monitored ?
+
+
+* technical solutions
+
+  how do you do when you want to reuse some code?
+  what convention is used to code?
+  how do you make sure that those convention are followed?
+  how a develop check his code against those conventions?
+  how user documentations is maintained?
+
+* product integration
+
+  when and how does a code move from test environment to production?
+  how to ensure that the delivered application meets the client requirements?
+  what are the contents of integration test plan?
+
+* verification
+
+  how code reviews are done?
+  and in which time bases code reviews are done?
+  where are the testing products placed?
+  what tools are used in verification?
+
+* validation
+
+  what are the steps for validation procedure?
+  what tools are used for validation?
+  how the client participate on the validation?
+  how to monitor the validation process?
