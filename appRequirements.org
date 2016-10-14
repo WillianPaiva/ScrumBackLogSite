@@ -1,0 +1,11 @@
+* 01 Developer
+* 02 Project Manager
+* 03 creation of backlog item
+* 04 requirements section
+* 05 offer the possibility to different steps of the project "planning" "in dev" ....
+* 06 possible visualization of all backlogs related tasks and sprints
+* 07 creation of a kanbam for each sprint
+* 08 each sprint has a  list of task
+* 09 keep track of the git related to the project
+* 10 the app should offer a resume of all directives of the project
+* 11 the app should offer different environment like "test" "dev" "prod"

@@ -3,7 +3,6 @@
   - what are the requirements for the project?
   - how can access those requirements and who can access it?
   - how are the requirements documented?
-  - how the requirements are analyzed?
   - how is the traceability of the requirements maintained ?
 
 
@@ -17,14 +16,15 @@
 * project follow-up
 
   - how to keep track of the project?
-  - how the versions work?
-  - and how are those versions managed?
   - how to track bugs ?
+  - how to ensure that the delivered application meets the client requirements?
   - how is progress monitored?
 
 * configuration
 
   - what is the configuration of the project?
+  - how the versions work?
+  - and how are those versions managed?
   - where is it documented?
   - how are the configuration item identified?
   - if a the configuration needs change whats is the process to change ?
@@ -42,7 +42,6 @@
 * product integration
 
   - when and how does a code move from test environment to production?
-  - how to ensure that the delivered application meets the client requirements?
   - what are the contents of integration test plan?
 
 * verification
