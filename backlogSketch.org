@@ -1,6 +1,25 @@
 
 * backlog
 
-| NB | description | effort |   |   |
-|----+-------------+--------+---+---|
-|    |             |        |   |   |
+| NB | description                                                                                                                   | effort |
+|----+-------------------------------------------------------------------------------------------------------------------------------+--------|
+|  1 | as a developer or pm i want to create backlog entrance                                                                        |        |
+|  2 | as a developer or pm i want to give a backlog entrance a effort number                                                        |        |
+|  3 | as a developer or pm i want to give flags to an backlog entrance                                                              |        |
+|  4 | as a developer or pm i want to create a task                                                                                  |        |
+|  5 | as a developer or pm i want to link a task to an back log entrance                                                            |        |
+|  6 | as a developer or pm i want to flag a task                                                                                    |        |
+|  7 | as a pm i want to give priorities to the tasks                                                                                |        |
+|  8 | as a developer or pm i want to create a requirements section                                                                  |        |
+|  9 | as a developer or pm i want to edit a requirements section                                                                    |        |
+| 10 | as a pm i want to create a sprint                                                                                             |        |
+| 11 | as a pm i want to link tasks to the sprint backlog                                                                            |        |
+| 12 | as a pm i want to create a kamban style board for a sprint                                                                    |        |
+| 13 | as a pm i want to create a kamban style board for a project                                                                   |        |
+| 13 | as a pm i want to give sprints tags like "test" , "in dev" ...                                                                |        |
+| 14 | as a developer or a pm i want to tag the closing of a USER STORY with a commit link                                           |        |
+| 15 | as a developer or a pm i want to tag a task done wit a commit link                                                            |        |
+| 16 | as a developer or pm i want to visualize a list of closed USER STORY and the commits that closed it                           |        |
+| 17 | as a developer or pm i want create/edit a section where i can give all the project directives like conventions to be fallowed |        |
+| 18 | as a developer or pm i want to send a task that failed test back to the backlog as a bug                                      |        |
+| 19 | as a developer or pm i want to edit a backlog/task item to add new information                                                |        |

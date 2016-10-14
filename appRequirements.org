@@ -9,3 +9,4 @@
 * 09 keep track of the git related to the project
 * 10 the app should offer a resume of all directives of the project
 * 11 the app should offer different environment like "test" "dev" "prod"
+* 12 systeme the flags
