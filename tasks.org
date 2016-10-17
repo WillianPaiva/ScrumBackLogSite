@@ -1,13 +1,13 @@
 * tasks
 
 ** #US1 and #US2
-| NB | description                                                      | m/d |
-|----+------------------------------------------------------------------+-----|
-|  1 | create the project model on the database				            |     |
-|  2 | create a controller for the project list                         |     |
-|  3 | create a view for the project list                               |     |
-|  4 | add a backlog to create											|	  |
-|  5 | test the creation and visualization of the backlog list and item |     |
+| NB | description                                                      |  m/d |
+|----+------------------------------------------------------------------+------|
+|  1 | create the project model on the database				                 |  0.5 |
+|  2 | create a controller for the project list                         | 0.25 |
+|  3 | create a view for the project list                               |  0.5 |
+|  4 | add a backlog to create											                    | 0.25 |
+|  5 | test the creation and visualization of the backlog list and item | 0.5  |
 
 *** task description
 **** task 1
@@ -33,18 +33,15 @@
 
 
 ** #US3 and #US4 and #US5 #US14
-| NB | description                                                      | m/d |
-|----+------------------------------------------------------------------+-----|
-|  1 | create the backlog and user story model on the database          |     |
-|  2 | create a controller for the backlogs list                        |     |
-|  3 | create a view for the backlogs list                              |     |
-|  4 | create a controller for the user story item                      |     |
-|  5 | create a view for the user story item                            |     |
-|  6 | test the creation and visualization of the backlog list and item |     |
-|  8 | add a flags to an user story       			                        |     |
-|  9 | add a priority to an user story    	                            |     |
-|  7 | add a effort number to an user story					                   |     |
-| 10 | add a description to an user         			                      |     |
+| NB | description                                                      |  m/d |
+|----+------------------------------------------------------------------+------|
+|  1 | create the backlog and user story model on the database          |  0.5 |
+|  2 | create a controller for the backlogs list                        |  0.5 |
+|  3 | create a view for the backlogs list                              |    1 |
+|  4 | create a controller for the user story item                      |  0.5 |
+|  5 | create a view for the user story item                            |    1 |
+|  6 | test the creation and visualization of the backlog list and item |  0.5 |
+|  8 | edit an user story       			                                  | 0.25 |
 
 *** tasks description
 **** task 1
@@ -61,7 +58,7 @@
 
      | id | description | effort | backlogID | priority | flagID | userID | closingCommit | status |
      |----+-------------+--------+-----------+----------+--------+--------+---------------+--------|
-     | |             |        |           |          |        |        |               |        |
+     |    |             |        |           |          |        |        |               |        |
 
 
 **** task 2
@@ -84,24 +81,16 @@
 	create unite test and selenium test for creation and visualization of the backlog and US.
 
 **** task 7
-	Ability to a PM/developer to assign a effort number to an user story
+     Ability to a PM/developer to edit a user story
 
-**** task 8
-	Ability to a PM/developer to giving a flags to an user story
-
-**** task 9
-	Ability to a PM to giving a priority to an user story
-
-**** task 10
-	Ability to a PM/developer to edit a descr to an user story
 
 ** #US7 and #US8 #US15
 | NB | description                                               | m/d |
 |----+-----------------------------------------------------------+-----|
-|  1 | create the task model on the database  					         |     |
-|  3 | create a view for the task list                       	  |     |
-|  2 | create a controller for the task list               	    |     |
-|  4 | test the creation and visualization of the task list 		 |     |
+|  1 | create the task model on the database  					         | 0.5 |
+|  2 | create a view for the task list                       	  | 0.5 |
+|  3 | create a controller for the task list               	    | 0.5 |
+|  4 | test the creation and visualization of the task list 		 | 0.5 |
 
 *** task description
 **** task 1
@@ -124,9 +113,9 @@
 	create unite test and selenium test for creation, visualization and modify of a task.
 
 ** #US9
-| NB | description                               | m/d |
-|----+-------------------------------------------+-----|
-|  1 | add/change priority to a task						 |     |
+| NB | description                               |  m/d |
+|----+-------------------------------------------+------|
+|  1 | add/change priority to a task						 | 0.25 |
 
 *** task description
 **** task 1
@@ -135,10 +124,10 @@
 ** #US6 and #US10 and #US11
 | NB | description                                     | m/d |
 |----+-------------------------------------------------+-----|
-|  1 | link a list of sprint to an user story				  |     |
-|  1 | create the sprint model on the database				 |     |
-|  2 | create a controller for the sprint list         |     |
-|  3 | create a view for the sprint list               |     |
+|  1 | link a list of sprint to an user story				  |   1 |
+|  1 | create the sprint model on the database				 | 0.5 |
+|  2 | create a controller for the sprint list         | 0.5 |
+|  3 | create a view for the sprint list               | 0.5 |
 
 *** tasks description
 **** task 1
@@ -150,7 +139,7 @@
 	*a backlog table like the example*
      | id | description | dateCreation | dateEnd |
      |----+-------------+--------------+---------|
-     |    |             |        	   |         |
+     |    |             | 	           |         |
 
 **** task 3
 	The controller does read/write/delete of a sprint, and allows to modify all details of a sprint.
@@ -165,9 +154,9 @@
 ** #US12 and #US13
 | NB | description                                     | m/d |
 |----+-------------------------------------------------+-----|
-|  1 | create the kanban model on the database				 |     |
-|  2 | create a controller for the sprint list         |     |
-|  3 | create a view for the sprint list               |     |
+|  1 | create the kanban model on the database				 | 0.5 |
+|  2 | create a controller for the sprint list         | 0.5 |
+|  3 | create a view for the sprint list               |   2 |
 
 *** tasks description
 **** task 1
@@ -192,8 +181,8 @@
 **  #US16
 | NB | description                  | m/d |
 |----+------------------------------+-----|
-|  1 | controller list of closed us |     |
-|  2 | view list closed us          |     |
+|  1 | controller list of closed us |   0 |
+|  2 | view list closed us          |   0 |
 
 
 *** tasks description
@@ -209,9 +198,9 @@ for closed ones
 ** #US17
 | NB | description                               | m/d |
 |----+-------------------------------------------+-----|
-|  1 | Create Users model on the database 			 |     |
-|  2 | Create Controller for the Users   			  |     |
-|  3 | Create View for the users 			          |     |
+|  1 | Create Users model on the database 			 | 0.5 |
+|  2 | Create Controller for the Users   			  | 0.5 |
+|  3 | Create View for the users 			          |   1 |
 *** tasks description
 **** task 1
 	Create a SQL script add the table to manage all Users
