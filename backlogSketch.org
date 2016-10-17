@@ -7,20 +7,18 @@
 |  2 | as pm i want to add a backlog to a project                                                                                    |        |
 |  3 | as a developer or pm i want to create a backlog                                                                               |        |
 |  4 | as a developer or pm i want to create user story item                                                                         |        |
-|  5 | as a developer or pm i want to give a user story item a effort number                                                         |        |
-|  6 | as a developer or pm i want to give flags to an user story item                                                               |        |
+|  5 | as a developer or pm i want to edit the deatails of a user story                                                              |        |
+|  6 | as a pm want to add a sprint to the user story                                                                                |        |
 |  7 | as a developer or pm i want to create a task                                                                                  |        |
-|  8 | as a developer or pm i want to link a task to an user story item                                                              |        |
-|  9 | as a developer or pm i want to flag a task                                                                                    |        |
-| 10 | as a pm i want to give priorities to the tasks                                                                                |        |
-| 11 | as a pm i want to create a sprint                                                                                             |        |
-| 12 | as a pm i want to link tasks to the sprint backlog                                                                            |        |
-| 13 | as a pm i want to create a kamban style board for a sprint                                                                    |        |
-| 14 | as a pm i want to create a kamban style board for a project                                                                   |        |
-| 15 | as a pm i want to give sprints tags like "test" , "in dev" ...                                                                |        |
-| 16 | as a developer or a pm i want to tag the closiking of a USER STORY with a commit link                                         |        |
-| 17 | as a developer or a pm i want to tag a task done wit a commit link                                                            |        |
-| 18 | as a developer or pm i want to visualize a list of closed USER STORY and the commits that closed it                           |        |
-| 19 | as a developer or pm i want create/edit a section where i can give all the project directives like conventions to be fallowed |        |
-| 20 | as a developer or pm i want to send a task that failed test back to the backlog as a bug                                      |        |
-| 21 | as a developer or pm i want to edit a backlog/task item to add new information                                                |        |
+|  8 | as a developer or pm i want to edit details of a task                                                                         |        |
+|  9 | as a pm i want to give priorities to the tasks                                                                                |        |
+| 10 | as a pm i want to create a sprint                                                                                             |        |
+| 11 | as a pm i want to edit the sprint details                                                                                     |        |
+| 12 | as a pm i want to create a kamban style board for a sprint                                                                    |        |
+| 13 | as a pm i want to create a kamban style board for a project                                                                   |        |
+| 14 | as a developer or a pm i want to tag the closing of a USER STORY with a commit link                                           |        |
+| 15 | as a developer or a pm i want to tag a task done wit a commit link                                                            |        |
+| 16 | as a developer or pm i want to visualize a list of closed USER STORY and the commits that closed it                           |        |
+| 17 | as a developer or pm i want create/edit a section where i can give all the project directives like conventions to be fallowed |        |
+| 18 | as a developer or pm i want to send a task that failed test back to the backlog as a bug                                      |        |
+| 19 | as a developer or pm i want to edit a backlog/task item to add new information                                                |        |
