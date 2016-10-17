@@ -1,7 +1,39 @@
 * tasks
 
-** #US0 and #US1
-| NB | description                                                      | m/h |
+** #US1 and #US2
+| NB | description                                                      | m/d |
+|----+------------------------------------------------------------------+-----|
+|  1 | create the project model on the database				            |     |
+|  2 | create a controller for the project list                         |     |
+|  3 | create a view for the project list                               |     |
+|  4 | add a backlog to create											|	  |
+|  5 | test the creation and visualization of the backlog list and item |     |
+
+*** task description 
+**** task 1 
+	Create a sql script add the table to manage all projects
+	
+	*a backlog table like the exemple*
+     | id | description | userId |creationDate |
+     |----+-------------+--------+-------------|
+     |    |             |        |             |
+     
+**** task 2
+	The controller can allows to a PM to create a new project, modify and add user on it.
+
+**** task 3
+	this view can allows to visual all project, click on a project to open it.
+
+**** task 4 
+	Allows to PM to add backlog on a project with a button "add backlog"
+	
+**** task 5
+	create unite test and selenium test for creation, visualization of a project and link of backlog to a project.
+	
+	
+	
+** #US3 and #US4 and #US5
+| NB | description                                                      | m/d |
 |----+------------------------------------------------------------------+-----|
 |  1 | create the backlog and user story model on the database          |     |
 |  2 | create a controller for the backlogs list                        |     |
@@ -9,7 +41,10 @@
 |  4 | create a controller for the user story item                      |     |
 |  5 | create a view for the user story item                            |     |
 |  6 | test the creation and visualization of the backlog list and item |     |
-
+|  7 | add a effort number to an user story					            |     |
+|  8 | add a flags to an user story       			                    |     |
+|  9 | add a priority to an user story    	                            |     |
+| 10 | add a description to an user         			                |     |
 
 *** tasks description
 **** task 1
@@ -18,8 +53,8 @@
 
 
      *a backlog table like the exemple*
-     | id | description | enviroment | userID | creationDate |
-     |----+-------------+------------+--------+--------------|
+     | id | description | enviroment | userID | creationDate | projectId |
+     |----+-------------+------------+--------+--------------|			
      |    |             |            |        |              |
 
      *and a user story database*
@@ -39,3 +74,67 @@
     detail the view will be developed using bootstrap 3 to normalize all the views and make responsible
 
 **** task 4
+	the controller allows to return a list of US link to a backlog, allows to delete or modify US. PM can add flags, priority and effort of US.
+	
+**** task 5
+    Create a view to display a list of US with an description, effort, flags, total M/D, associated sprint. User can click on each US to expand and edit with a button.
+    If the US is associated to a sprint, user can click on it to visual the sprint.
+    
+**** task 6
+	create unite test and selenium test for creation and visualization of the backlog and US.
+
+**** task 7
+	Ability to a PM/developer to assign a effort number to an user story
+
+**** task 8
+	Ability to a PM/developer to giving a flags to an user story
+
+**** task 9
+	Ability to a PM to giving a priority to an user story
+
+**** task 10
+	Ability to a PM/developer to edit a descr to an user story
+
+** #US7 and #US8
+| NB | description                                                      | m/d |
+|----+------------------------------------------------------------------+-----|
+|  1 | create the backlog and user story model on the database          |     |
+|  2 | create a controller for the backlogs list                        |     |
+|  3 | create a view for the backlogs list                              |     |
+|  4 | test the creation and visualization of the backlog list and item |     |
+
+**** task 1 
+	Create a sql script add the table to manage all projects
+	
+	*a backlog table like the exemple*
+     | id | description | userId |creationDate | status | realM/D | priority | expectedM/D |
+     |----+-------------+--------+-------------|--------|
+     |    |             |        |             |
+     
+**** task 2
+	the controller does read/write/delete of a task, and return a list of a tasks. the controller allows to modify all details of a task.
+	
+**** task 3
+	Create a view to display a list of task and can able to click on it to have all the details of a task, descrition, who works on this task, real and expected M/D.
+	It possible to have the status of task. To modify, PM/developer should click on button "edit".
+	
+**** task 4
+	create unite test and selenium test for creation, visualization and modify of a task.
+	
+** #US9
+| NB | description                                                      | m/d |
+|----+------------------------------------------------------------------+-----|
+|  1 | link a list of sprint to an user story				            |     |
+
+** #US6 and #US10 and #US11
+| NB | description                                                      | m/d |
+|----+------------------------------------------------------------------+-----|
+|  1 | link a list of sprint to an user story				            |     |
+
+** #US12 and #US13
+
+** #US14 and #US15 and #US16
+
+** #US17
+
+** #US18
