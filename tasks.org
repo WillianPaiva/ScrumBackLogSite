@@ -189,17 +189,7 @@
 	create unit test and selenium test for creation, visualization of a kanban.
 
 ** #US14 and #US15 and #US16
-| NB | description                                                      | m/d |
-|----+------------------------------------------------------------------+-----|
-|  1 | Create flag class  			            |     |
 
-*** tasks description
-**** task 1
-	Create a SQL script that add a flag into the database
-	* a flag table will be like the example
-	 | id | flag_desc  | color |
-	 |----+------------+-------|
-	 |    |            |       |
 
 ** #US17
 | NB | description                                                      | m/d |
@@ -225,3 +215,12 @@
 ** #US18
 | NB | description                                                      | m/d |
 |----+------------------------------------------------------------------+-----|
+|  1 | Create flag class  			            |     |
+
+*** tasks description
+**** task 1
+	Create a SQL script that add a flag into the database
+	* a flag table will be like the example
+	 | id | flag_desc  | color |
+	 |----+------------+-------|
+	 |    |            |       |
