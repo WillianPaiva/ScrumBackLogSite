@@ -32,7 +32,7 @@
 
 
 
-** #US3 and #US4 and #US5
+** #US3 and #US4 and #US5 #US14
 | NB | description                                                      | m/d |
 |----+------------------------------------------------------------------+-----|
 |  1 | create the backlog and user story model on the database          |     |
@@ -59,9 +59,9 @@
 
      *and a user story database*
 
-     | id | description | effort | backlogID | priority | flagID | userID |
-     |----+-------------+--------+-----------+----------+--------+--------|
-     |    |             |        |           |          |        |        |
+     | id | description | effort | backlogID | priority | flagID | userID | closingCommit | status |
+     |----+-------------+--------+-----------+----------+--------+--------+---------------+--------|
+     | |             |        |           |          |        |        |               |        |
 
 
 **** task 2
@@ -95,7 +95,7 @@
 **** task 10
 	Ability to a PM/developer to edit a descr to an user story
 
-** #US7 and #US8
+** #US7 and #US8 #US15
 | NB | description                                               | m/d |
 |----+-----------------------------------------------------------+-----|
 |  1 | create the task model on the database  					         |     |
@@ -109,9 +109,9 @@
 	
 
 	*a backlog table like the example*
-     | id | description | userId |creationDate | status | realM/D | priority | expectedM/D |
-     |----+-------------+--------+-------------+--------+---------+----------+-------------|
-     |    |             |        |             |		|         |          |			   |
+     | id | description | userId | creationDate | status | realM/D | priority | expectedM/D | closingCommit |
+     |----+-------------+--------+--------------+--------+---------+----------+-------------+---------------|
+     |    |             |        |              | 		   |         |          | 			      |               |
 
 **** task 2
 	the controller does read/write/delete of a task, and return a list of a tasks. the controller allows to modify all details of a task.
@@ -151,7 +151,6 @@
      | id | description | dateCreation | dateEnd |
      |----+-------------+--------------+---------|
      |    |             |        	   |         |
->>>>>>> 89ff07acdf61bf38bdba3ac86e2bfa43e6bca36a
 
 **** task 3
 	The controller does read/write/delete of a sprint, and allows to modify all details of a sprint.
@@ -190,18 +189,29 @@
 **** task 4
 	create unit test and selenium test for creation, visualization of a kanban.
 
-** #US14 and #US15 and #US16
-| NB | description | m/d |   |   |
-|----+-------------+------+---+---|
-|    |             |      |   |   |
+**  #US16
+| NB | description                  | m/d |
+|----+------------------------------+-----|
+|  1 | controller list of closed us |     |
+|  2 | view list closed us          |     |
+
+
+*** tasks description
+
+**** task 1
+for this task we should be able to use the controller for user story with a filter
+for closed ones
+
+**** task 2
+     for this view we will be using the same view as for the user story
 
 
 ** #US17
-| NB | description                                                      | m/d |
-|----+------------------------------------------------------------------+-----|
-|  1 | Create Users model on the database 			            |     |
-|  2 | Create Controller for the Users   			            |     |
-|  3 | Create View for the users 			            |     |
+| NB | description                               | m/d |
+|----+-------------------------------------------+-----|
+|  1 | Create Users model on the database 			 |     |
+|  2 | Create Controller for the Users   			  |     |
+|  3 | Create View for the users 			          |     |
 *** tasks description
 **** task 1
 	Create a SQL script add the table to manage all Users
