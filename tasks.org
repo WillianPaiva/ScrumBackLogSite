@@ -9,3 +9,21 @@
 |  4 | create a controller for the backlog as item                      |     |
 |  5 | create a view for the backlog as item                            |     |
 |  6 | test the creation and visualization of the backlog list and item |     |
+
+
+*** tasks description
+**** task 1
+     this task consists in the creation of the sql script or for the database creation this part of the database
+     should contain 2 tables
+
+
+     *a backlog table like the exemple*
+| id | description | env |
+|----+-------------+-----|
+|    |             |     |
+
+*and a item database*
+
+| id | description | effor | backlogID | priority |
+|----+-------------+-------+-----------+----------|
+|    |             |       |           |          |
