@@ -18,12 +18,13 @@
 
 
      *a backlog table like the exemple*
-| id | description | env |
-|----+-------------+-----|
-|    |             |     |
+| id | description | enviroment |
+|----+-------------+------------|
+|    |             |            |
 
 *and a item database*
 
-| id | description | effor | backlogID | priority |
-|----+-------------+-------+-----------+----------|
-|    |             |       |           |          |
+| id | description | effort | backlogID | priority | flagID |
+|----+-------------+--------+-----------+----------+--------|
+|    |             |        |           |          |        |
+
