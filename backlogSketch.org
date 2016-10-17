@@ -21,4 +21,3 @@
 | 16 | as a developer or pm i want to visualize a list of closed USER STORY and the commits that closed it                           |        |
 | 17 | as a developer or pm i want create/edit a section where i can give all the project directives like conventions to be fallowed |        |
 | 18 | as a developer or pm i want to send a task that failed test back to the backlog as a bug                                      |        |
-| 19 | as a developer or pm i want to edit a backlog/task item to add new information                                                |        |
