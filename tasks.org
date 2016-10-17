@@ -9,29 +9,29 @@
 |  4 | add a backlog to create											|	  |
 |  5 | test the creation and visualization of the backlog list and item |     |
 
-*** task description 
-**** task 1 
+*** task description
+**** task 1
 	Create a sql script add the table to manage all projects
-	
-	*a backlog table like the exemple*
+
+	*a backlog table like the example*
      | id | description | userId |creationDate |
      |----+-------------+--------+-------------|
      |    |             |        |             |
-     
+
 **** task 2
-	The controller can allows to a PM to create a new project, modify and add user on it.
+	The controller allows the PM to create a new project, modify it and add user in it.
 
 **** task 3
-	this view can allows to visual all project, click on a project to open it.
+	this view  allows the  visualization of  all projects, click on a project to open it.
 
-**** task 4 
+**** task 4
 	Allows to PM to add backlog on a project with a button "add backlog"
-	
+
 **** task 5
-	create unite test and selenium test for creation, visualization of a project and link of backlog to a project.
-	
-	
-	
+	create and run unit tests and selenium tests for creation, visualization of a project and also test the link between them.
+
+
+
 ** #US3 and #US4 and #US5
 | NB | description                                                      | m/d |
 |----+------------------------------------------------------------------+-----|
@@ -54,7 +54,7 @@
 
      *a backlog table like the exemple*
      | id | description | enviroment | userID | creationDate | projectId |
-     |----+-------------+------------+--------+--------------|			
+     |----+-------------+------------+--------+--------------|
      |    |             |            |        |              |
 
      *and a user story database*
@@ -65,9 +65,9 @@
 
 
 **** task 2
-     this controller will be responsible to interrogate the database and return a list of backlogs ordered as demanded
+     this controller will be responsible to interrogate the database that will return a list of backlogs ordered as demanded
      and visible by the user.
-     this controller should offer a method that takes user and a column name to order and if increased or decreased order
+     this controller should offer a method that takes user and a column name to order and also choose if its an increased or decreased order.
 
 **** task 3
     create a view to display a list of backlogs and open a backlog to visualization on click
@@ -75,16 +75,16 @@
 
 **** task 4
 	the controller allows to return a list of US link to a backlog, allows to delete or modify US. PM can add flags, priority and effort of US.
-	
+
 **** task 5
     Create a view to display a list of US with an description, effort, flags, total M/D, associated sprint. User can click on each US to expand and edit with a button.
     If the US is associated to a sprint, user can click on it to visual the sprint.
-    
+
 **** task 6
-	create unite test and selenium test for creation and visualization of the backlog and US.
+	create unit test and selenium test for creation and visualization of the backlog and US.
 
 **** task 7
-	Ability to a PM/developer to assign a effort number to an user story
+	Ability to a PM/developer to assign an effort number to an user story
 
 **** task 8
 	Ability to a PM/developer to giving a flags to an user story
@@ -98,59 +98,39 @@
 ** #US7 and #US8
 | NB | description                                                      | m/d |
 |----+------------------------------------------------------------------+-----|
-|  1 | create the task model on the database  					        |     |
-|  2 | create a controller for the task list               	            |     |
-|  3 | create a view for the task list                       	        |     |
-|  4 | test the creation and visualization of the task list 		    |     |
+|  1 | create the backlog and user story model on the database          |     |
+|  2 | create a controller for the backlogs list                        |     |
+|  3 | create a view for the backlogs list                              |     |
+|  4 | test the creation and visualization of the backlog list and item |     |
 
-*** task description
-**** task 1 
-	Create a sql script add the table to manage all tasks
-	
+**** task 1
+	Create a sql script add the table to manage all projects
+
 	*a backlog table like the exemple*
      | id | description | userId |creationDate | status | realM/D | priority | expectedM/D |
      |----+-------------+--------+-------------|--------|
      |    |             |        |             |
-     
+
 **** task 2
 	the controller does read/write/delete of a task, and return a list of a tasks. the controller allows to modify all details of a task.
-	
+
 **** task 3
-	Create a view to display a list of task and can able to click on it to have all the details of a task, descrition, who works on this task, real and expected M/D.
+	Create a view to display a list of task and can able to click on it to have all the details of a task, description, who works on this task, real and expected M/D.
 	It possible to have the status of task. To modify, PM/developer should click on button "edit".
-	
+
 **** task 4
-	create unite test and selenium test for creation, visualization and modify of a task.
-	
+	create unit test and selenium test for creation, visualization and modify of a task.
+
 ** #US9
 | NB | description                                                      | m/d |
 |----+------------------------------------------------------------------+-----|
-|  1 | add/change priority to a task						            |     |
-
-*** task description
-**** task 1 
-	Ability to a PM to add or modify the priority of a task.
+|  1 | link a list of sprint to an user story				            |     |
 
 ** #US6 and #US10 and #US11
 | NB | description                                                      | m/d |
 |----+------------------------------------------------------------------+-----|
 |  1 | link a list of sprint to an user story				            |     |
-|  1 | create the sprint model on the database				            |     |
-|  2 | create a controller for the sprint list                          |     |
-|  3 | create a view for the sprint list                                |     |
 
-*** tasks description
-**** task 1
-	When a sprint was created, the PM must link the sprint to a user story.
-
-**** task 2 
-	Create a sql script add the table to manage all sprints
-	
-	*a backlog table like the exemple*
-     | id | description | userId |creationDate | status | realM/D | priority | expectedM/D |
-     |----+-------------+--------+-------------|--------|
-     |    |             |        |             |
-	
 ** #US12 and #US13
 
 ** #US14 and #US15 and #US16
