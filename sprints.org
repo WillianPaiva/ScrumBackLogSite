@@ -1,10 +1,17 @@
-First Sprint
-/***/
-Second Sprint
+*Sprints Plan
+**First Sprint
+Make Template (our project conf) 
+Database Script
+Login /Logout 
+Diffrentiate permissions between a PM and a developper
+Project creation by a PM
+BackLog creation by a PM or Developer
+adding a backlog to a project by a PM   
+**Second Sprint
 /****/
-Third Sprint
+**Third Sprint
 /****/
-Fourth Sprint
+**Fourth Sprint
 /*****/
-Fifth Sprint
+**Fifth Sprint
 /******/
