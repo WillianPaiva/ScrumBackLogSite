@@ -18,15 +18,15 @@
 
 
      *a backlog table like the exemple*
-| id | description | enviroment |
-|----+-------------+------------|
-|    |             |            |
+| id | description | enviroment | userID | creationDate |
+|----+-------------+------------+--------+--------------|
+|    |             |            |        |              |
 
 *and a user story database*
 
-| id | description | effort | backlogID | priority | flagID |
-|----+-------------+--------+-----------+----------+--------|
-|    |             |        |           |          |        |
+| id | description | effort | backlogID | priority | flagID | userID |
+|----+-------------+--------+-----------+----------+--------+--------|
+|    |             |        |           |          |        |        |
 
 
 **** task 2
