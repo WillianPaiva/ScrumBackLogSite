@@ -1,0 +1,11 @@
+* tasks
+
+** #US1
+| NB | description                                                      | m/h |
+|----+------------------------------------------------------------------+-----|
+|  1 | create the backlog model on the database                         |     |
+|  2 | create a controller for the backlog operations as a list         |     |
+|  3 | create a view for the backlog as a list                          |     |
+|  4 | create a controller for the backlog as item                      |     |
+|  5 | create a view for the backlog as item                            |     |
+|  6 | test the creation and visualization of the backlog list and item |     |
