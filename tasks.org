@@ -30,4 +30,6 @@
 
 
 **** task 2
-     this controler will be resposible to
+     this controller will be responsible to interrogate the database and return a list of backlogs ordered as demanded
+     and visible by the user.
+     this controller should offer a method that takes user and a column name to order and if increased or decreased order
