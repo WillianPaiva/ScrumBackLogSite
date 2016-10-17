@@ -1,0 +1,6 @@
+[submodule "ScrumDevRepo"]
+	path = ScrumDevRepo
+	url = https://github.com/WillianPaiva/ScrumDevRepo.git
+[submodule "ScrumDemoRepo"]
+	path = ScrumDemoRepo
+	url = https://github.com/WillianPaiva/ScrumDemoRepo.git
