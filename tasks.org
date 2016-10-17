@@ -41,10 +41,10 @@
 |  4 | create a controller for the user story item                      |     |
 |  5 | create a view for the user story item                            |     |
 |  6 | test the creation and visualization of the backlog list and item |     |
-|  7 | add a effort number to an user story					            |     |
-|  8 | add a flags to an user story       			                    |     |
+|  8 | add a flags to an user story       			                        |     |
 |  9 | add a priority to an user story    	                            |     |
-| 10 | add a description to an user         			                |     |
+|  7 | add a effort number to an user story					                   |     |
+| 10 | add a description to an user         			                      |     |
 
 *** tasks description
 **** task 1
@@ -54,8 +54,8 @@
 
      *a backlog table like the exemple*
      | id | description | enviroment | userID | creationDate | projectId |
-     |----+-------------+------------+--------+--------------|			
-     |    |             |            |        |              |
+     |----+-------------+------------+--------+--------------+-----------|
+     |    |             |            |        |              |           |
 
      *and a user story database*
 
@@ -96,22 +96,22 @@
 	Ability to a PM/developer to edit a descr to an user story
 
 ** #US7 and #US8
-| NB | description                                                      | m/d |
-|----+------------------------------------------------------------------+-----|
-|  1 | create the task model on the database  					        |     |
-|  2 | create a controller for the task list               	            |     |
-|  3 | create a view for the task list                       	        |     |
-|  4 | test the creation and visualization of the task list 		    |     |
+| NB | description                                               | m/d |
+|----+-----------------------------------------------------------+-----|
+|  1 | create the task model on the database  					         |     |
+|  3 | create a view for the task list                       	  |     |
+|  2 | create a controller for the task list               	    |     |
+|  4 | test the creation and visualization of the task list 		 |     |
 
 *** task description
 **** task 1 
 	Create a sql script add the table to manage all tasks
 	
 	*a backlog table like the exemple*
-     | id | description | userId |creationDate | status | realM/D | priority | expectedM/D |
-     |----+-------------+--------+-------------+--------+---------+----------+-------------|
-     |    |             |        |             |		|         |          |			   |
-     
+     | id | description | userId | creationDate | status | realM/D | priority | expectedM/D |
+     |----+-------------+--------+--------------+--------+---------+----------+-------------|
+     |    |             |        |              | 		   |         |          | 			      |
+
 **** task 2
 	the controller does read/write/delete of a task, and return a list of a tasks. the controller allows to modify all details of a task.
 	
@@ -123,21 +123,21 @@
 	create unite test and selenium test for creation, visualization and modify of a task.
 	
 ** #US9
-| NB | description                                                      | m/d |
-|----+------------------------------------------------------------------+-----|
-|  1 | add/change priority to a task						            |     |
+| NB | description                               | m/d |
+|----+-------------------------------------------+-----|
+|  1 | add/change priority to a task						 |     |
 
 *** task description
 **** task 1 
 	Ability to a PM to add or modify the priority of a task.
 
 ** #US6 and #US10 and #US11
-| NB | description                                                      | m/d |
-|----+------------------------------------------------------------------+-----|
-|  1 | link a list of sprint to an user story				            |     |
-|  1 | create the sprint model on the database				            |     |
-|  2 | create a controller for the sprint list                          |     |
-|  3 | create a view for the sprint list                                |     |
+| NB | description                                     | m/d |
+|----+-------------------------------------------------+-----|
+|  1 | link a list of sprint to an user story				  |     |
+|  1 | create the sprint model on the database				 |     |
+|  2 | create a controller for the sprint list         |     |
+|  3 | create a view for the sprint list               |     |
 
 *** tasks description
 **** task 1
@@ -149,8 +149,8 @@
 	*a backlog table like the exemple*
      | id | description | dateCreation | dateEnd |
      |----+-------------+--------------+---------|
-     |    |             |        	   |         |
-	
+     |    |             | 	           |         |
+
 **** task 3
 	The controller does read/write/delete of a sprint, and allows to modify all details of a sprint.
 	
@@ -162,11 +162,11 @@
 	create unite test and selenium test for creation, visualization and modify of a sprint.
 	
 ** #US12 and #US13
-| NB | description                                                      | m/d |
-|----+------------------------------------------------------------------+-----|
-|  1 | create the kanban model on the database				            |     |
-|  2 | create a controller for the sprint list                          |     |
-|  3 | create a view for the sprint list                                |     |
+| NB | description                                     | m/d |
+|----+-------------------------------------------------+-----|
+|  1 | create the kanban model on the database				 |     |
+|  2 | create a controller for the sprint list         |     |
+|  3 | create a view for the sprint list               |     |
 
 *** tasks description
 **** task 1
@@ -189,6 +189,9 @@
 	create unite test and selenium test for creation, visualization of a kanban.
 	
 ** #US14 and #US15 and #US16
+| NB | description | m/d |   |   |
+|----+-------------+------+---+---|
+|    |             |      |   |   |
 
 ** #US17
 
