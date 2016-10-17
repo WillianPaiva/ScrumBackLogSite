@@ -1,14 +1,24 @@
-*Sprints Plan
-**First Sprint
-#US1
-#US2
-#US3
-#US4
-**Second Sprint
-/****/
-**Third Sprint
-/****/
-**Fourth Sprint
-/*****/
-**Fifth Sprint
-/******/
+* Sprints Plan
+** First Sprint
+   #US17
+   #US7
+   #US8
+   #US15
+   #US9
+** Second Sprint
+   #US10
+   #US3
+   #US4
+   #US5
+   #US14
+** Third Sprint
+   #US6
+   #US11
+   #US16
+** Fourth Sprint
+   #US1
+   #US2
+   #US12
+   #US13
+
+** Fifth Sprint
