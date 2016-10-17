@@ -1,6 +1,6 @@
 * tasks
 
-[[diagramme.on g]]
+[[diagramme.png]]
 
 
 ** #US1 and #US2
