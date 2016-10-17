@@ -98,13 +98,14 @@
 ** #US7 and #US8
 | NB | description                                                      | m/d |
 |----+------------------------------------------------------------------+-----|
-|  1 | create the backlog and user story model on the database          |     |
-|  2 | create a controller for the backlogs list                        |     |
-|  3 | create a view for the backlogs list                              |     |
-|  4 | test the creation and visualization of the backlog list and item |     |
+|  1 | create the task model on the database  					        |     |
+|  2 | create a controller for the task list               	            |     |
+|  3 | create a view for the task list                       	        |     |
+|  4 | test the creation and visualization of the task list 		    |     |
 
+*** task description
 **** task 1 
-	Create a sql script add the table to manage all projects
+	Create a sql script add the table to manage all tasks
 	
 	*a backlog table like the exemple*
      | id | description | userId |creationDate | status | realM/D | priority | expectedM/D |
@@ -124,13 +125,32 @@
 ** #US9
 | NB | description                                                      | m/d |
 |----+------------------------------------------------------------------+-----|
-|  1 | link a list of sprint to an user story				            |     |
+|  1 | add/change priority to a task						            |     |
+
+*** task description
+**** task 1 
+	Ability to a PM to add or modify the priority of a task.
 
 ** #US6 and #US10 and #US11
 | NB | description                                                      | m/d |
 |----+------------------------------------------------------------------+-----|
 |  1 | link a list of sprint to an user story				            |     |
+|  1 | create the sprint model on the database				            |     |
+|  2 | create a controller for the sprint list                          |     |
+|  3 | create a view for the sprint list                                |     |
 
+*** tasks description
+**** task 1
+	When a sprint was created, the PM must link the sprint to a user story.
+
+**** task 2 
+	Create a sql script add the table to manage all sprints
+	
+	*a backlog table like the exemple*
+     | id | description | userId |creationDate | status | realM/D | priority | expectedM/D |
+     |----+-------------+--------+-------------|--------|
+     |    |             |        |             |
+	
 ** #US12 and #US13
 
 ** #US14 and #US15 and #US16
