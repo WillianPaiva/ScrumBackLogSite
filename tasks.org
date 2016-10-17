@@ -18,18 +18,24 @@
 
 
      *a backlog table like the exemple*
-| id | description | enviroment | userID | creationDate |
-|----+-------------+------------+--------+--------------|
-|    |             |            |        |              |
+     | id | description | enviroment | userID | creationDate |
+     |----+-------------+------------+--------+--------------|
+     |    |             |            |        |              |
 
-*and a user story database*
+     *and a user story database*
 
-| id | description | effort | backlogID | priority | flagID | userID |
-|----+-------------+--------+-----------+----------+--------+--------|
-|    |             |        |           |          |        |        |
+     | id | description | effort | backlogID | priority | flagID | userID |
+     |----+-------------+--------+-----------+----------+--------+--------|
+     |    |             |        |           |          |        |        |
 
 
 **** task 2
      this controller will be responsible to interrogate the database and return a list of backlogs ordered as demanded
      and visible by the user.
      this controller should offer a method that takes user and a column name to order and if increased or decreased order
+
+**** task 3
+    create a view to display a list of backlogs and open a backlog to visualization on click
+    detail the view will be developed using bootstrap 3 to normalize all the views and make responsible
+
+**** task 4
