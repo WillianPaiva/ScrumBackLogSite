@@ -3,7 +3,7 @@
 ** #US0 and #US1
 | NB | description                                                      | m/h |
 |----+------------------------------------------------------------------+-----|
-|  1 | create the backlog model on the database                         |     |
+|  1 | create the backlog and user story model on the database          |     |
 |  2 | create a controller for the backlogs list                        |     |
 |  3 | create a view for the backlogs list                              |     |
 |  4 | create a controller for the user story item                      |     |
