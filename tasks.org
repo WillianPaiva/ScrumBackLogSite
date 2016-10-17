@@ -1,13 +1,13 @@
 * tasks
 
-** #US1
+** #US0 and #US1
 | NB | description                                                      | m/h |
 |----+------------------------------------------------------------------+-----|
 |  1 | create the backlog model on the database                         |     |
-|  2 | create a controller for the backlog operations as a list         |     |
-|  3 | create a view for the backlog as a list                          |     |
-|  4 | create a controller for the backlog as item                      |     |
-|  5 | create a view for the backlog as item                            |     |
+|  2 | create a controller for the backlogs list                        |     |
+|  3 | create a view for the backlogs list                              |     |
+|  4 | create a controller for the user story item                      |     |
+|  5 | create a view for the user story item                            |     |
 |  6 | test the creation and visualization of the backlog list and item |     |
 
 
@@ -22,9 +22,12 @@
 |----+-------------+------------|
 |    |             |            |
 
-*and a item database*
+*and a user story database*
 
 | id | description | effort | backlogID | priority | flagID |
 |----+-------------+--------+-----------+----------+--------|
 |    |             |        |           |          |        |
 
+
+**** task 2
+     this controler will be resposible to

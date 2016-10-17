@@ -3,11 +3,12 @@
 
 | NB | description                                                                                                                   | effort |
 |----+-------------------------------------------------------------------------------------------------------------------------------+--------|
-|  1 | as a developer or pm i want to create backlog entrance                                                                        |        |
-|  2 | as a developer or pm i want to give a backlog entrance a effort number                                                        |        |
-|  3 | as a developer or pm i want to give flags to an backlog entrance                                                              |        |
+|  0 | as a developer or pm i want to create a backlog                                                                               |        |
+|  1 | as a developer or pm i want to create user story item                                                                  |        |
+|  2 | as a developer or pm i want to give a user story item a effort number                                          |        |
+|  3 | as a developer or pm i want to give flags to an user story item                                                |        |
 |  4 | as a developer or pm i want to create a task                                                                                  |        |
-|  5 | as a developer or pm i want to link a task to an back log entrance                                                            |        |
+|  5 | as a developer or pm i want to link a task to an user story item                                              |        |
 |  6 | as a developer or pm i want to flag a task                                                                                    |        |
 |  7 | as a pm i want to give priorities to the tasks                                                                                |        |
 |  8 | as a developer or pm i want to create a requirements section                                                                  |        |
