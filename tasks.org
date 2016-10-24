@@ -87,7 +87,7 @@
      create a view to feed the information to the template on *task 4*
 
 
-** #US5 , #US6, #US7
+** #US5 , #US6, #US7 , #US8
 
    | nb | description                              | m/d |
    |----+------------------------------------------+-----|
@@ -113,9 +113,9 @@
      |    |      |       |      |
 - user story table
 
-     | ID | description | owner | date | backlogID | flag | priority | effort | nb |
-     |----+-------------+-------+------+-----------+------+----------+--------+----|
-     |    |             |       |      |           |      |          |        |    |
+     | ID | description | owner | date | backlogID | flag | priority | effort | nb | status | commit |
+     |----+-------------+-------+------+-----------+------+----------+--------+----+--------+--------|
+     |    |             |       |      |           |      |          |        |    |        |        |
 
 **** task 2
     create a model for the backlog based on the data described on the *task 1*
