@@ -1,0 +1,46 @@
+** US9
+|1| create a database model for the sprints |0.5|
+|2| adapt the template of a sprint to give access to a new form for the creation with a button |0.5|
+|3| create the service of the sprint creation at server side |0.5|
+|4| stock the sprint data in the database |0.5|
+
+*** task details
+
+**** task 1
+the database for a sprint should contain the following columns :
+|SprintNumber|US|
+
+
+**US9
+|1| adapt the template of a sprint to give access to a new form for the modification (fill with current information) with a button
+|2| create the service of the sprint modification at server side| |0.5|
+|3| update the sprint data in the database |0.5|
+
+
+**US10
+|1| adapt the template of a sprint to give access to a new form to add US with a button |0.5|
+|2| create the service of the add of user story modification at server side |0.5|
+|3| update the sprint data in the database |0.5|
+
+** US12 US14
+|1| create a database model for the tasks |0.5|
+|2| create the template of a creation of a task |0.5|
+|3| add a form to create a task in the template of task's creation
+|3| create the service of the task creation at server side |0.5|
+|4| stock the task data in the database |0.5|
+
+*** task details
+
+**** task 1
+the database for a task should contain the following columns :
+|TaskNumber|Description|KanbanColumn|Priority|
+
+**US13
+|1| adapt the template of the kanban to give access to the add form for the modification (fill with current task information) |0.5|
+|2| create the service of the sprint modification at server side| |0.5|
+|3| update the task data in the database |0.5|
+
+**US15
+
+|1| create a template to visualise the tracability |0.5|
+|2| fill the tracability data in the template |0.5|
