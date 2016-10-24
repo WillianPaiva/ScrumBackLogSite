@@ -1,0 +1,53 @@
+**#US16 and US17
+|1|create the view for the kanban  | 2 |
+|2|create the controller for the kanban | 3|
+|3|create the model for the kanban of sprint  | 1|
+|4|create the model for kaban columns creation    |1|
+|5|create the template for the kanban  |3 |
+***task details
+**** task 1
+	create one the for the two types of kanbans   
+	|id|idsprint|
+	 |id|idkanban|nom|position|
+**** task 2 
+	create the view for a maquette like display kind of the kanban 
+**** task 3
+	create the controller in order to :
+	create a kanban of a sprint
+	update a kanban	
+	flag a user story in a Kanban 
+	move user story from state columns to others  
+
+	
+**** task 4
+	create the model class to acces and manage kanban of a sprint  database information such as :
+	select method 
+	update method 
+	delete method
+
+**** task 5
+	be able to add  state columns needed for user stories , such as :
+	join methods 
+	columns adding  
+**** task 6
+	 create the template of the page contaning the necessary HTML and angular js code for the right display 
+**#US18
+|1|selenium tests|1|
+|2|Unit tests|0.5|
+ *** task details 
+**** task 1 
+ run selenium tests of all the previous presented user story scenarios :
+	project creation 
+	visitor registration
+	visitor joinnig a project 
+	backlog creation,adding in a project 
+	Create US and adding it in a backlog
+	See US tracability 
+	Sprint Creation with chance to edit and addin US in it 
+	Task Creation and possibility to edit  
+	Check Task Tags
+	Kanban Display and manipulation 
+	
+	
+**** task 2 
+	Write Unit tests for methods of the project

@@ -126,3 +126,122 @@
 
 **** task 9
      create a view to feed the information to the template on *task 8*
+
+** US9
+   | nb | description                                                                                | m/d |
+   |----+--------------------------------------------------------------------------------------------+-----|
+   |  1 | create a database model for the sprints                                                    | 0.5 |
+   |  2 | adapt the template of a sprint to give access to a new form for the creation with a button | 0.5 |
+   |  3 | create the service of the sprint creation at server side                                   | 0.5 |
+   |  4 | stock the sprint data in the database                                                      | 0.5 |
+
+*** task details
+
+**** task 1
+the database for a sprint should contain the following columns :
+| SprintNumber | US |
+|              |    |
+
+
+** US9
+   | nb | description                                                                                                                    | m/d |
+   |----+--------------------------------------------------------------------------------------------------------------------------------+-----|
+   |  1 | adapt the template of a sprint to give access to a new form for the modification (fill with current information) with a button | 0.5 |
+   |  2 | create the service of the sprint modification at server side                                                                   | 0.5 |
+   |  3 | update the sprint data in the database                                                                                         | 0.5 |
+
+
+** US10
+   | nb | description                                                                         | m/d |
+   |----+-------------------------------------------------------------------------------------+-----|
+   |  1 | adapt the template of a sprint to give access to a new form to add US with a button | 0.5 |
+   |  2 | create the service of the add of user story modification at server side             | 0.5 |
+   |  3 | update the sprint data in the database                                              | 0.5 |
+
+** US12 US14 US15
+   | nb | description                                                    | m/d |
+   |----+----------------------------------------------------------------+-----|
+   |  1 | create a database model for the tasks                          | 0.5 |
+   |  2 | create the template of a creation of a task                    | 0.5 |
+   |  3 | add a form to create a task in the template of task's creation | 0.5 |
+   |  3 | create the service of the task creation at server side         | 0.5 |
+   |  4 | stock the task data in the database                            | 0.5 |
+
+*** task details
+
+**** task 1
+the database for a task should contain the following columns :
+| TaskNumber | Description | KanbanColumn | Priority |commit| status|
+
+** US13
+   | nb | description                                                                                                               | m/d |
+   |----+---------------------------------------------------------------------------------------------------------------------------+-----|
+   |  1 | adapt the template of the kanban to give access to the add form for the modification (fill with current task information) | 0.5 |
+   |  2 | create the service of the sprint modification at server side                                                              | 0.5 |
+   |  3 | update the task data in the database                                                                                      | 0.5 |
+
+
+   | nb | description                                    | m/d |
+   |----+------------------------------------------------+-----|
+   |  1 | create a template to visualise the tracability | 0.5 |
+   |  2 | fill the tracability data in the template      | 0.5 |
+
+
+** #US16 and US17
+   | nb | description                                 | m/d |
+   |----+---------------------------------------------+-----|
+   |  1 | create the view for the kanban              |   2 |
+   |  2 | create the controller for the kanban        |   3 |
+   |  3 | create the model for the kanban of sprint   |   1 |
+   |  4 | create the model for kaban columns creation |   1 |
+   |  5 | create the template for the kanban          |   3 |
+*** task details
+**** task 1
+  create one the for the two types of kanbans
+  | id | idsprint |
+
+  | id | idkanban | nom | position |
+**** task 2
+  create the view for a maquette like display kind of the kanban
+**** task 3
+  create the controller in order to :
+  create a kanban of a sprint
+  update a kanban
+  flag a user story in a Kanban
+  move user story from state columns to others
+
+
+**** task 4
+  create the model class to acces and manage kanban of a sprint  database information such as :
+  select method
+  update method
+  delete method
+
+**** task 5
+  be able to add  state columns needed for user stories , such as :
+  join methods
+  columns adding
+**** task 6
+   create the template of the page contaning the necessary HTML and angular js code for the right display
+** #US18
+   | nb | description    | m/d |
+   |----+----------------+-----|
+   |  1 | selenium tests |   1 |
+   |  2 | Unit tests     | 0.5 |
+ *** task details
+**** task 1
+ run selenium tests of all the previous presented user story scenarios :
+  project creation
+  visitor registration
+  visitor joinnig a project
+  backlog creation,adding in a project
+  Create US and adding it in a backlog
+  See US tracability
+  Sprint Creation with chance to edit and addin US in it
+  Task Creation and possibility to edit
+  Check Task Tags
+  Kanban Display and manipulation
+
+
+**** task 2
+  Write Unit tests for methods of the project
