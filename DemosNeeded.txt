@@ -1,0 +1,13 @@
+Demo 1 :
+Creer Projet
+Ajouts Membres
+
+Demo 2 :
+Users Stories
+Backlog
+Details
+
+Demo 3 :
+Sprints
+Kanban
+Tracability
