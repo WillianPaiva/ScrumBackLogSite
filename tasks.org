@@ -1,9 +1,33 @@
 * tasks
 
 
-
 ** #US2
-   | nb | descriptinew user.
+  | nb | description                                  | m/d |
+   |----+----------------------------------------------+-----|
+   |  1 | create a database model for the users        | 0.5 |
+   |  2 | create a model for the user                  | 0.5 |
+   |  3 | create a controller for the user registering | 0.5 |
+   |  4 | create a template for the registering        | 0.5 |
+   |  5 | create a view for the user registering       | 0.5 |
+   |  6 | create a template for login                  | 0.5 |
+   |  7 | create a view for the user details           | 0.5 |
+   |  8 | create a template for the user details       | 0.5 |
+
+
+*** task details
+**** task 1
+     the database for a user should contain the following columns:
+     on laravel migrations;
+     | ID | firs_name | last_name | email | password |
+     |----+-----------+-----------+-------+----------|
+     |    |           |           |       |          |
+
+**** task 2
+    create a model based on the data described on the *task 1*
+
+**** task 3
+     create a controller for the user allowing the following operations
+     - create a new user.
      - edit a user
      - change password
      - check password
