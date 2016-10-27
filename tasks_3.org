@@ -1,10 +1,10 @@
-**#US16 and US17
+** #US16 and US17
 |1|create the view for the kanban  | 2 |
 |2|create the controller for the kanban | 3|
 |3|create the model for the kanban of sprint  | 1|
 |4|create the model for kaban columns creation    |1|
 |5|create the template for the kanban  |3 |
-***task details
+*** task details
 **** task 1
 	create one the for the two types of kanbans   
 	|id|idsprint|

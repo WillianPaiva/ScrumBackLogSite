@@ -1,0 +1,28 @@
+* remark
+
+|            | objective                  | scrum                  |
+|------------+----------------------------+------------------------|
+| analyze    | specify what the MOE wants | backlog, user story    |
+| conception | architecture                | plan sprints and tasks |
+| code       |                            |                        |
+
+
+** creation of project and equip
+** backlog and us
+** sprint and task
+
+
+* kpi
+  key performance indicators
+- cost around 400euros/home
+- size of the project around 6 months to 1 year
+
+
+- quality nb of bugs, maximum severity
+example 20 bugs of max severity per version;
+- nb violations (linter);
+- test coverture
+- comments
+-
+on business the quality kpi would be some thing like
+earn more money the in the previous version
