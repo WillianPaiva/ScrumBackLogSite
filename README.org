@@ -1,3 +1,4 @@
+* project kanbam at *https://waffle.io/WillianPaiva/scrumDevRepoq*
 * Management repository
 this repository is dedicated to keep all the files related with the conception and management of an app for project management
 based on scrum method.
