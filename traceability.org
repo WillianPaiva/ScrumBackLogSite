@@ -1,5 +1,5 @@
 | user story  | commit                                   |
 |-------------+------------------------------------------|
 | us2         | 9347abda1d968f8e74ac383497e9998ab26f3e30 |
-| us1 us3 us4 | 80a981f3d9b5bdb4d3b0a1ca219e330d56167539 |
+| us1 us3 us4 us5| e990f50c1694488ac9c25ec32cfe7c3c81dc16d1 |
 |             |                                          |
