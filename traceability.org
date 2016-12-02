@@ -1,5 +1,9 @@
-| user story  | commit                                   |
-|-------------+------------------------------------------|
-| us2         | 9347abda1d968f8e74ac383497e9998ab26f3e30 |
-| us1 us3 us4 us5| e990f50c1694488ac9c25ec32cfe7c3c81dc16d1 |
-|             |                                          |
+| user story                    | commit                                   |
+|-------------------------------+------------------------------------------|
+| us2                           | 9347abda1d968f8e74ac383497e9998ab26f3e30 |
+| us1 us3 us4 us5               | e990f50c1694488ac9c25ec32cfe7c3c81dc16d1 |
+| us5 us6 us7 us8               | ea76f115585b5afa3cd36d5ab724a1d001923db9 |
+| us9 us10 us11 us12 us13 us 14 | 62f47a7bfc28833a0a89f738d2cb7ec02474b022 |
+| us19                          | 63daf9c23ec51e9e4b70c52e2862311f89a5cafe |
+| us15 us16 us17 us18           | c718bf73e6bba7196e64aa7dfb7a9dc98722b4b3 |
+|                               |                                          |
